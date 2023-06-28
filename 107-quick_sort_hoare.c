@@ -7,8 +7,8 @@ void quick_sort_hoare(int *array, size_t size);
 
 /**
  * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @a: Represents the first integer to swap.
+ * @b: Represents the second integer to swap.
  */
 void swap_ints(int *a, int *b)
 {
@@ -22,10 +22,10 @@ void swap_ints(int *a, int *b)
 /**
  * hoare_partition - Order a subset of an array of integers
  *                   according to the hoare partition scheme.
- * @array: The array of integers.
- * @size: The size of the array.
- * @left: The starting index of the subset to order.
- * @right: The ending index of the subset to order.
+ * @array: Represents the array of integers.
+ * @size: Represents the size of the array.
+ * @left: Represents the starting index of the subset to order.
+ * @right: Represents the ending index of the subset to order.
  *
  * Return: The final partition index.
  *
@@ -58,10 +58,10 @@ int hoare_partition(int *array, size_t size, int left, int right)
 
 /**
  * hoare_sort - Implement the quicksort algorithm through recursion.
- * @array: An array of integers to sort.
- * @size: The size of the array.
- * @left: The starting index of the array partition to order.
- * @right: The ending index of the array partition to order.
+ * @array: Represents an array of integers to sort.
+ * @size: Represents the size of the array.
+ * @left: Represents the starting index of the array partition to order.
+ * @right: Represents the ending index of the array partition to order.
  *
  * Description: Uses the Hoare partition scheme.
  */
@@ -80,8 +80,8 @@ void hoare_sort(int *array, size_t size, int left, int right)
 /**
  * quick_sort_hoare - Sort an array of integers in ascending
  *                    order using the quicksort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * @array: Represents an array of integers.
+ * @size: Represents the size of the array.
  *
  * Description: Uses the Hoare partition scheme. Prints
  * the array after each swap of two elements.
